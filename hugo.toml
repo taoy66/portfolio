@@ -61,3 +61,6 @@ theme = "PaperMod"
     name = "Skills"
     url  = "/skills/"
     weight = 40
+
+  [params.assets]
+   customCSS = ["css/extended/nav.css"]
