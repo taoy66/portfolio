@@ -20,7 +20,6 @@ theme = "PaperMod"
     imageHeight = 260
     imageTitle = "Tao Yan"
 
-    # (Optional) big buttons under the subtitle
     [[params.profileMode.buttons]]
       name = "Resume"
       url = "/resume/"
