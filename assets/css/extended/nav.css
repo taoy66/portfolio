@@ -1,0 +1,12 @@
+/* Default tabs normal weight */
+#menu a {
+  font-size: 20px;
+  font-weight: 400;   /* normal */
+  text-decoration: none;
+  padding: 18px 0;
+}
+
+/* Only "Home" tab bold */
+#menu a[href="/"] {
+  font-weight: 700;   /* bold */
+}
