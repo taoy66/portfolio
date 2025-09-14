@@ -21,8 +21,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: true
+          submodules: recursive   # <-- ensure theme is fetched
           fetch-depth: 0
+
+      - name: Ensure submodules present
+        run: |
+          git submodule sync --recursive
+          git submodule update --init --recursive
+          ls -la themes
+          test -f themes/PaperMod/theme.toml && echo "PaperMod present ✅" || (echo "PaperMod missing ❌" && exit 1)
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
