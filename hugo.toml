@@ -1,6 +1,6 @@
-baseURL = "https://taoy66.github.io/tao-portfolio./"
-canonifyURLs = true
-relativeURLs = true
+baseURL = "https://taoy66.github.io/portfolio/"
+canonifyURLs = false
+relativeURLs = false
 languageCode = "en-us"
 title = "Tao Yan"
 theme = "PaperMod"
@@ -15,7 +15,7 @@ theme = "PaperMod"
     title = "Tao Yan"
     subtitle = """**Mechanical Design & R&D** • Additive Manufacturing • Heat Transfer
 **AI-assisted Engineering** and reliable mechanism design"""
-    imageUrl = "/images/avatar.jpg"
+    imageUrl = "images/avatar.jpg"
     imageWidth = 260
     imageHeight = 260
     imageTitle = "Tao Yan"
